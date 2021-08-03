@@ -25,3 +25,15 @@ This repo contains the content for IDMA full time program. The repo will remain 
     - Python 101 [Mark Lutz, Learning Python, 5th Edition, Chapter 10, 13, 14](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/)
     - Oops for DS: [Mark Lutz, Learning Python, 5th Edition, Chapter 27](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch27.html#class_coding_basics). You can skim through the portion on operator overloading.
     - Pandas 101: [Matt Harisson, Pandas 1.x Cookbook, Chapter2, Chapter3, Chapter4, Chapter5, Chapter6, Chapter7, Chapter9](https://learning.oreilly.com/library/view/pandas-1x-cookbook/9781839213106/) You can complete these readings over a span of 2-3 weeks. As the course progresses you will find yourself using this book as a quick reference.
+
+## Week 2 (Agenda, Pre-requisites and readings)
+
+1. **Pre-requisites**
+   - Install [dbeaver])(https://dbeaver.io/download/)
+
+
+2. **Readings** (Some resources require Orielly Credentials)
+
+    **Pre-reads**
+
+    - Introduction to SQL: SQL Queries for Mere Mortals: A Hands-On Guide to Data Manipulation in SQL, 4th Edition, [Chapter 1](https://learning.oreilly.com/library/view/sql-queries-for/9780134858432/ch1.xhtml#ch1) 
