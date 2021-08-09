@@ -36,4 +36,5 @@ This repo contains the content for IDMA full time program. The repo will remain 
 
     **Pre-reads**
 
-    - Introduction to SQL: SQL Queries for Mere Mortals: A Hands-On Guide to Data Manipulation in SQL, 4th Edition, [Chapter 1](https://learning.oreilly.com/library/view/sql-queries-for/9780134858432/ch1.xhtml#ch1) 
+    - Introduction to SQL: SQL Queries for Mere Mortals: A Hands-On Guide to Data Manipulation in SQL, 4th Edition, [Chapter1](https://learning.oreilly.com/library/view/sql-queries-for/9780134858432/ch1.xhtml#ch1)  
+    - Window Functions: [AnalyticFunctions](https://oracle-base.com/articles/misc/analytic-functions#syntax)
