@@ -55,3 +55,27 @@ lag(num_transactions,1) over (partition by Payment_Method) as lagged_count,
 ((num_transactions*1.0/(lag(num_transactions,1) over (partition by Payment_Method)))-1.0)*100 as perc_change
 from t;
 
+/*Q4*/
+with s as (
+with t as 
+(select 
+strftime("%m",Timestamp) as month,
+strftime("%Y",Timestamp) as year,
+Payment_Method,
+count(*) as num_transactions
+from transactions
+group by month, Payment_Method 
+)
+select year, 
+month,
+Payment_Method,
+num_transactions,
+sum(num_transactions) over (partition by Payment_Method
+							order by month
+							rows between unbounded PRECEDING and current row) as running_total
+from t)
+select *,
+running_total*1.0/(sum(num_transactions) over (partition by Payment_Method
+						order by month
+						rows between unbounded PRECEDING and unbounded FOLLOWING)) as pareto
+from s;
