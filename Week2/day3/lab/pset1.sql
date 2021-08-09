@@ -37,3 +37,21 @@ where kind_of_business = 'Men''s clothing stores' and year BETWEEN 1992 and 1995
 select year,month,qtr,sales,
 rank() over (partition by year,qtr order by sales desc) as qtr_perf
 from retail_mod;
+
+/*Q3*/
+select * from transactions;
+with t as 
+(select 
+strftime("%m",Timestamp) as month,
+Payment_Method,
+count(*) as num_transactions
+from transactions
+group by month, Payment_Method 
+)
+select month,
+Payment_Method,
+num_transactions,
+lag(num_transactions,1) over (partition by Payment_Method) as lagged_count,
+((num_transactions*1.0/(lag(num_transactions,1) over (partition by Payment_Method)))-1.0)*100 as perc_change
+from t;
+

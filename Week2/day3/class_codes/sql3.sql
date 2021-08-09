@@ -99,6 +99,8 @@ SELECT sales_month
 FROM retail_sales
 WHERE kind_of_business in ('Men''s clothing stores','Women''s clothing stores');
 
+
+
 /* Another common usage of window functions is with indexing things using value window functions*/
 --- LAG(), LEAD(), FIRST_VALUE(), LAST_VALUE() 
 
@@ -142,34 +144,132 @@ select yr, mth, sales,
 rank() over (partition by yr order by sales desc) as sales_perf
 from retail_mod;
 
-
-
-
-/*Revised version window functions*/
+/* We can do more interesting things, lets find out the ranking across two different categories*/
 select * from retail_sales;
-/* Aggregate over years * for mens clothing*/
 with retail_mod as 
 (
-select *, strftime("%Y", sales_month) as year from retail_sales
+select *, cast(strftime("%m", sales_month) as FLOAT) as mth,
+cast(STRFTIME("%Y", sales_month) as FLOAT) as yr
+from retail_sales 
+where kind_of_business in ('Men''s clothing stores','Automobile dealers') and yr in (1992.0,1993.0,1994.0)
 )
-select year,kind_of_business, sum(sales) as total_sales from retail_mod
-group by 1,2
-having kind_of_business = 'Men''s clothing stores';
-/* partition over with aggregate functions */
-/* we can find out min(), max() over months */
-with retail_mod as 
-(select *, strftime("%Y", sales_month) as year,
-STRFTIME("%m", sales_month) as month from retail_sales
-where kind_of_business = 'Men''s clothing stores')
-select year, month,sales,
-min(sales) over() as min_global,
-min(sales) over(partition by year order by year) as local_min
+select yr,kind_of_business,mth, sales, 
+rank() over (partition by yr,kind_of_business order by sales desc) as sales_perf
 from retail_mod;
 
-/* create content on UNBOUNDED PRECEDING
+/* We may also want to calculate month over month or, year over year change, this can be done using lead()/lag()*/
+with retail_mod as 
+(
+select *, cast(strftime("%m", sales_month) as FLOAT) as mth,
+cast(STRFTIME("%Y", sales_month) as FLOAT) as yr
+from retail_sales 
+where kind_of_business in ('Men''s clothing stores') and yr in (1992.0,1993.0,1994.0)
+)
+select yr,mth,sales,
+lag(sales, 1) over () as prev_month_sales
+from retail_mod;
+
+/* calculate the percentage change month on month */
+with retail_mod as 
+(
+select *, cast(strftime("%m", sales_month) as FLOAT) as mth,
+cast(STRFTIME("%Y", sales_month) as FLOAT) as yr
+from retail_sales 
+where kind_of_business in ('Men''s clothing stores') and yr in (1992.0,1993.0,1994.0)
+)
+select yr,mth,sales,
+lag(sales, 1) over () as prev_month_sales,
+((sales*1.0/(lag(sales, 1) over ()))-1.0)*100 as m_o_m
+from retail_mod;
+
+/* calculate the percentage change month on month over previous year */
+with retail_mod as 
+(
+select *, cast(strftime("%m", sales_month) as FLOAT) as mth,
+cast(STRFTIME("%Y", sales_month) as FLOAT) as yr
+from retail_sales 
+where kind_of_business in ('Men''s clothing stores')
+)
+select yr,mth,sales,
+lag(sales, 12) over () as prev_month_sales,
+((sales*1.0/(lag(sales, 12) over ()))-1.0)*100 as m_o_m
+from retail_mod;
+
+
+/* calculate year over year change */
+with retail_mod as 
+(
+select
+cast(STRFTIME("%Y", sales_month) as FLOAT) as yr,
+sum(sales) as yearly_sales
+from retail_sales 
+where kind_of_business in ('Men''s clothing stores')
+group by yr
+)
+select yr, 
+yearly_sales,
+lag(yearly_sales,1) over() as prev_sales
+from retail_mod;
+
+/* calculate the percentage change month on month across categories*/
+with retail_mod as 
+(
+select *, cast(strftime("%m", sales_month) as FLOAT) as mth,
+cast(STRFTIME("%Y", sales_month) as FLOAT) as yr
+from retail_sales 
+where kind_of_business in ('Men''s clothing stores', 'Automobile dealers') and yr in (1992.0,1993.0,1994.0)
+)
+select yr,mth,sales,kind_of_business,
+lag(sales, 1) over (PARTITION by kind_of_business) as prev_month_sales,
+(sales*1.0/(lag(sales, 1) over (PARTITION by kind_of_business))-1.0)*100 as m_o_m
+from retail_mod;
+
+
+/* content on UNBOUNDED PRECEDING
 offset PRECEDING
 CURRENT ROW
 offset FOLLOWING
 UNBOUNDED FOLLOWING*/
 
 
+/* Now assume we wanted to know which months there is more sale in an year and what percent of total sale*/
+with t as (
+with s as (
+SELECT sales_month
+,kind_of_business
+,sales
+,STRFTIME('%Y',sales_month) as year,
+STRFTIME("%m", sales_month) as month
+FROM retail_sales
+WHERE kind_of_business in ('Men''s clothing stores','Women''s clothing stores')
+)
+select 
+year,
+month,
+kind_of_business,
+sales, 
+sum(sales) over (partition by year,kind_of_business rows between UNBOUNDED preceding and current row) as running_sum
+from s)
+select *,
+last_value(running_sum) over (partition by year,kind_of_business) as test,
+running_sum*1.0/last_value(running_sum) over (partition by year,kind_of_business) as pareto
+from t;
+
+/* we can also use the rows between to find moving averages*/
+with s as (
+SELECT sales_month
+,kind_of_business
+,sales
+,STRFTIME('%Y',sales_month) as year,
+STRFTIME("%m", sales_month) as month
+FROM retail_sales
+WHERE kind_of_business in ('Men''s clothing stores','Women''s clothing stores')
+)
+select year,
+month,
+kind_of_business,sales,
+sum(sales) over (partition by year,
+				kind_of_business
+				order by year,kind_of_business
+				rows between 1 PRECEDING and 1 FOLLOWING) as three_month_ma
+from s;
