@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1626859520000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+    "title": "USGS All Earthquakes, Past Hour",
+    "status": 200,
+    "api": "1.10.3",
+    "count": 14
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.1500001,
+        "place": "3 km ENE of Pāhala, Hawaii",
+        "time": 1626859250480,
+        "updated": 1626859447300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72595567",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72595567.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 71,
+        "net": "hv",
+        "code": "72595567",
+        "ids": ",hv72595567,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": null,
+        "rms": 0.100000001,
+        "gap": 113,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 3 km ENE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.451171875,
+          19.2175006866455,
+          35.3600006103516
+        ]
+      },
+      "id": "hv72595567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.71,
+        "place": "6km WNW of The Geysers, CA",
+        "time": 1626858853340,
+        "updated": 1626859031239,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73596701",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73596701.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 45,
+        "net": "nc",
+        "code": "73596701",
+        "ids": ",nc73596701,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 33,
+        "dmin": 0.01697,
+        "rms": 0.07,
+        "gap": 69,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.7 - 6km WNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8133316,
+          38.7985001,
+          0.92
+        ]
+      },
+      "id": "nc73596701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.16000009,
+        "place": "1 km E of Pāhala, Hawaii",
+        "time": 1626858758490,
+        "updated": 1626858944180,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72595557",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72595557.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 72,
+        "net": "hv",
+        "code": "72595557",
+        "ids": ",hv72595557,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": null,
+        "rms": 0.119999997,
+        "gap": 101,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.2 - 1 km E of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.46516418457,
+          19.2021675109863,
+          35.2099990844727
+        ]
+      },
+      "id": "hv72595557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "16 km WNW of Fishhook, Alaska",
+        "time": 1626858671777,
+        "updated": 1626859198267,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219a7zdzd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219a7zdzd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "0219a7zdzd",
+        "ids": ",ak0219a7zdzd,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.72,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.2 - 16 km WNW of Fishhook, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5373,
+          61.7799,
+          34.6
+        ]
+      },
+      "id": "ak0219a7zdzd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "13 km SW of Walker, California",
+        "time": 1626858326154,
+        "updated": 1626858633020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00815387",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00815387.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "nn",
+        "code": "00815387",
+        "ids": ",nn00815387,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.092,
+        "rms": 0.164,
+        "gap": 122.24,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 13 km SW of Walker, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5643,
+          38.419,
+          9.9
+        ]
+      },
+      "id": "nn00815387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.62,
+        "place": "0 km NE of Union City, Oklahoma",
+        "time": 1626858025592,
+        "updated": 1626858191124,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2021odxy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2021odxy.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 40,
+        "net": "ok",
+        "code": "2021odxy",
+        "ids": ",ok2021odxy,",
+        "sources": ",ok,",
+        "types": ",origin,phase-data,",
+        "nst": 12,
+        "dmin": 0.01809838973,
+        "rms": 1.051602139,
+        "gap": 66.76361465,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.6 - 0 km NE of Union City, Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93731689,
+          35.39479828,
+          12.89295769
+        ]
+      },
+      "id": "ok2021odxy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.9,
+        "place": "2 km NE of Walker, California",
+        "time": 1626857937835,
+        "updated": 1626858392176,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00815385",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00815385.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 12,
+        "net": "nn",
+        "code": "00815385",
+        "ids": ",nn00815385,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 0.033,
+        "rms": 0.1607,
+        "gap": 71.21,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.9 - 2 km NE of Walker, California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4541,
+          38.5347,
+          3
+        ]
+      },
+      "id": "nn00815385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.7,
+        "place": "23 km WSW of Karluk, Alaska",
+        "time": 1626857168280,
+        "updated": 1626858847098,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219a7lg64",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219a7lg64.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 44,
+        "net": "ak",
+        "code": "0219a7lg64",
+        "ids": ",ak0219a7lg64,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.62,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.7 - 23 km WSW of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.8031,
+          57.4688,
+          0
+        ]
+      },
+      "id": "ak0219a7lg64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.45,
+        "place": "4km NW of The Geysers, CA",
+        "time": 1626857148260,
+        "updated": 1626857246170,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73596691",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73596691.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 32,
+        "net": "nc",
+        "code": "73596691",
+        "ids": ",nc73596691,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 31,
+        "dmin": 0.006694,
+        "rms": 0.05,
+        "gap": 36,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.5 - 4km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.786499,
+          38.8083344,
+          -0.09
+        ]
+      },
+      "id": "nc73596691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1,
+        "place": "64 km ESE of Denali National Park, Alaska",
+        "time": 1626856878511,
+        "updated": 1626857383900,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219a7ked9",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219a7ked9.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 15,
+        "net": "ak",
+        "code": "0219a7ked9",
+        "ids": ",ak0219a7ked9,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.76,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.0 - 64 km ESE of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.6206,
+          63.24,
+          40.9
+        ]
+      },
+      "id": "ak0219a7ked9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.8,
+        "place": "5 km NNE of Yerington, Nevada",
+        "time": 1626856605055,
+        "updated": 1626857993097,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00815384",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00815384.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 10,
+        "net": "nn",
+        "code": "00815384",
+        "ids": ",nn00815384,",
+        "sources": ",nn,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.095,
+        "rms": 0.0944,
+        "gap": 177.73,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 5 km NNE of Yerington, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1317,
+          39.0293,
+          0
+        ]
+      },
+      "id": "nn00815384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.04,
+        "place": "9 km SSE of Volcano, Hawaii",
+        "time": 1626856360250,
+        "updated": 1626856692040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72595487",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72595487.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 64,
+        "net": "hv",
+        "code": "72595487",
+        "ids": ",hv72595487,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": null,
+        "rms": 0.25,
+        "gap": 99,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.0 - 9 km SSE of Volcano, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.184997558594,
+          19.3681659698486,
+          1.41999995708466
+        ]
+      },
+      "id": "hv72595487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.1,
+        "place": "66 km WNW of Happy Valley, Alaska",
+        "time": 1626856030999,
+        "updated": 1626856251507,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219a7hdrg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219a7hdrg.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 19,
+        "net": "ak",
+        "code": "0219a7hdrg",
+        "ids": ",ak0219a7hdrg,",
+        "sources": ",ak,",
+        "types": ",origin,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.64,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 1.1 - 66 km WNW of Happy Valley, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8524,
+          60.149,
+          105.6
+        ]
+      },
+      "id": "ak0219a7hdrg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.38,
+        "place": "22km ESE of Little Lake, CA",
+        "time": 1626855948480,
+        "updated": 1626856158958,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39748207",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci39748207.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 2,
+        "net": "ci",
+        "code": "39748207",
+        "ids": ",ci39748207,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 7,
+        "dmin": 0.07547,
+        "rms": 0.08,
+        "gap": 90,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.4 - 22km ESE of Little Lake, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6798333,
+          35.8761667,
+          3.04
+        ]
+      },
+      "id": "ci39748207"
+    }
+  ],
+  "bbox": [
+    -155.46516418457,
+    19.202167510986,
+    -0.09,
+    -97.93731689,
+    63.24,
+    105.6
+  ]
+}
