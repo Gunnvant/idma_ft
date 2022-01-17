@@ -1,0 +1,5 @@
+address:    http://ectpdx-sunone.ect.enron.com/~ctatham/navsetup/index.htm
+
+
+id:   pallen
+password:  westgasx

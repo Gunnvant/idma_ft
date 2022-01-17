@@ -1,0 +1,14 @@
+
+LIVELINK ID SETUP CONFIRMATION NOTIFICATION
+
+Welcome to Livelink!
+
+Your Livelink ID will match your Enron Network ID. The ENA Livelink instance is synchronized with directory services allowing you to automatically login without entering your ID and password. 
+The Corp and ELU Livelink instance will require that manually enter and change your password. 
+
+For Logon instructions specific to you and basic Livelink maneuvering see the information within the attachment below:
+
+				 	
+
+Thank you,
+Rob Wells 

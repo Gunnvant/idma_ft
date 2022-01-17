@@ -1,0 +1,26 @@
+Legal has been assessing the risks of doing block forward trades as financial 
+and for now, subject to future changes that may be required  as discussions 
+with the CAPX legal experts continue,  we can state the basic rules as 
+follows:
+
+It is okay to do up to 50% of  our Block Forward business as financial.
+It is very important to monitor this 50% level very closely and we should not 
+exceed it. We should not rely on the PX to tell us what the level is. We 
+should confirm it ourselves.  A skeptical regulator, looking at PX records 
+should never be able to see that we ever did more than half our block forward 
+business as financial.  
+One of the legal rules that we must comply with in this area is that there 
+must be a bona fide commercial reason for going financial.  This 
+dumbfoundingly simple sounding rule is important.  Somehow, when we 
+communicate our decision to the PX to go from physical to financial, we 
+should give our reason.  I'm not sure whether our decision is expressed by 
+phone, or electronically, but in either case,  the person making the change 
+with the PX should get in an expression something like this:  "we would like 
+to change these trades to financial because we think the elimination of 
+physical risk will benefit us commercially."  Please be patient with this 
+self serving requirement and do it. 
+
+ I have not worked out with any of the other back office groups how this new 
+practice will be handled. Obviously any changes it will require in 
+scheduling, settlements and accounting need to be dealt with too. Please call 
+me with any questions.  ----cgy 

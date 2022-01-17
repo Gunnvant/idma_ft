@@ -1,0 +1,11 @@
+The following expense report is ready for approval:
+
+Employee Name: Justin K. Rostant
+Status last changed by:  Automated Administrator
+Expense Report Name: Rostant 112001
+Report Total: $42.07
+Amount Due Employee: $42.07
+
+
+To approve this expense report, click on the following link for Concur Expense.
+http://expensexms.enron.com

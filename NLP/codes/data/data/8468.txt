@@ -1,0 +1,12 @@
+
+Hello all...
+
+Attached is the DealBench Development Methodology that we will be following to sure up the development effort.  Please look over it and let me know if you have any questions.
+
+ 
+
+
+By following this, we will ensure the stability of the site and make life a lot easier on everyone.
+
+Thanks,
+-John

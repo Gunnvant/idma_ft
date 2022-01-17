@@ -1,0 +1,8 @@
+Dave:
+Can you modify the code that disallows at choice market.  Sometimes the 
+system will allow me to make a choice market by lowering my offer, sometimes 
+it won't.  The system will never allow me to raise a bid to make a choice 
+market.   I use this feature when 
+
+The sytem should continue to disallow inverted markets, a market where the 
+bid is greater than the offer.

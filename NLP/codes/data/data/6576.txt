@@ -1,0 +1,13 @@
+will every programmer involved on this project be in this building working this weekend?
+
+ -----Original Message-----
+From: 	Puthigai, Savita  
+Sent:	Friday, August 10, 2001 1:03 PM
+To:	Arnold, John
+Subject:	Limit Orders
+
+Hi John,
+
+We are not going to be able to release the limit order functionalit to production this Friday. It will probably happen next week.
+
+Savita

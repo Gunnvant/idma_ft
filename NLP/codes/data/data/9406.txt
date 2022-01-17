@@ -1,0 +1,5 @@
+Due to the NW-LT exotic book not being officialized, the positions and VAR 
+are not correct in our system.  Therefore, VAR reports will not be produced 
+today.
+Thanks,
+Rebecca

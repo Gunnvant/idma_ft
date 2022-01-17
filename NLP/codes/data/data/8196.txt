@@ -1,0 +1,4 @@
+Folks:
+
+Attached is an updated testing script for your benefit.  Please feel free to 
+add additional steps if I have missed anything to this list.  Thanks.  SR:-)

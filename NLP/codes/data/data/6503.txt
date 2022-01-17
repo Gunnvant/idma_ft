@@ -1,0 +1,9 @@
+Kim:
+Are John's tix available for the following games:
+
+July 16 or 17  	Cleveland	
+Sep 11,12 or 13	San Francisco
+Sep 23		Chicago
+
+Thanks,
+John

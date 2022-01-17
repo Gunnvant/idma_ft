@@ -1,0 +1,5 @@
+rajib:
+The following are my bids for the asian option:
+GQ 1 : .41
+GQ 2 : .63
+GQ 3 : .57

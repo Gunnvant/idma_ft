@@ -1,0 +1,6 @@
+Tanya:
+On Friday I emailed a new vol curve to use for VAR testing.  I was under the 
+impression that you could apply this vol curve to the price book and storage 
+book and have a new experimental VAR number by Monday. I have not received 
+any response.  Please reply with status of this project.
+John

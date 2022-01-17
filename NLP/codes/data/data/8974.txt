@@ -1,0 +1,100 @@
+Market Participants,
+
+Attention: Settlements and Scheduling Personnel
+
+Your participation is requested in the second iteration of 10-Minute
+Settlement Market Simulation.
+
+As communicated on 7/20/00, the ISO has postponed the August 1, 2000,
+implementation of 10-minute settlements in order to accommodate additional
+end-to-end testing and market simulation.  The ISO's new target for
+implementation is the last week of August, 2000, contingent upon the
+successful completion of the second 10-Minute Settlement Market Simulation
+and ISO's 10 day written notice to FERC.
+
+The second 10-Minute Settlement Market Simulation is scheduled to begin on
+Tuesday, August 1, 2000.  The ISO will hold a kickoff meeting conference
+call on Thursday, July 27, from 1:30 - 3:00 p.m., to summarize the status of
+the first Market Simulation, discuss the second Market Simulation logistics,
+and review the Market Simulation Plan.
+
+All Market Participants are strongly urged to participate in this simulation
+to identify any outstanding issues that may affect implementation for
+Scheduling Coordinators and the ISO.
+
+Please respond to Cathy Young at cyoung@caiso.com by 3:00 p.m. on Friday if
+you intend to participate.  The remainder of this message contains the
+kickoff meeting Agenda, Market Simulation Schedule, and necessary system set
+up documentation for the simulation.
+
+10 MINUTE SETTLEMENT MARKET SIMULATION II
+KICKOFF CONFERENCE CALL
+July 27, 1:30 - 3:00 p.m.
+Conference Number 877-670-4111
+Passcode 246870
+Agenda:
+* Review of first Market Simulation
+* System Requirements
+* ADS
+* SI
+* Metering
+* Meter Data
+* Refer to attached document: Metering August Mkt Sim1
+* MDAS Online work around
+* Schedule Data Requirements
+* RMR dispatch
+* OOS
+* Interties predispatch
+* SC provide all DA market and supplemental energy bid data
+
+Proposed Market Simulation Schedule (refer to attached Detailed Test Plan)
+* Monday , July 31 ADS/SI/Metering connectivity
+* Tuesday, August 1    DA market run for td 8/2/00
+* Wednesday, August 2 Real time market for td 8/2/00 (HE 11 -- 17)
+
+  DA market run for td 8/3/00
+* Thursday, August 3 Real time market for td 8/3/00 (HE 11 -- 17)
+* Friday, August 4 Run settlements for 8/2/00
+* Monday, August 7 Run settlements for 8/3/00
+  Publish settlements for 8/2/00
+* Tuesday, August 8  Publish settlements for 8/3/00
+* Wednesday, August 9 Market Participant Review
+* Thursday, August 10 Market Participant Review
+* Friday, August 11 Conference call to review market sim.
+
+
+Attached please find the following documentation for your use in setting up
+your systems for Market Simulation.
+
+a.  ADS Market Simulation Configuration
+b.  ADS_PAR Installation
+c.  Software Configuration for SI Development System
+
+It is important that you use this information to prepare your system setup
+ASAP.  It may be necessary to have your IT department allow traffic through
+your firewalls to and from the ADS market simulation IP address and port.
+Please refer to the ADS Market Simulation Configuration document for
+detailed instructions.
+
+If you are interested in verbally receiving RMR pre-dispatches during the
+market simulation, please let Cathy Young know when you sign up.
+
+You may contact Christine Vangelatos at cvangelatos@caiso.com or (916)
+351-2142 if you have any questions or concerns regarding ADS or SI
+configuration.
+
+
+CRCommunications
+Client Relations Communications
+
+
+ <<ADS Market Simulation Configuration Instructions.doc>>  <<ADS_PAR
+Installation.ppt>>  <<CONFIGUREdev1_.doc>>  <<10-min Market Simulation Test
+Script 2.doc>>  <<Metering August Mkt Sim.doc>>
+
+
+ - ADS Market Simulation Configuration Instructions.doc
+ - ADS_PAR Installation.ppt
+ - CONFIGUREdev1_.doc
+ - 10-min Market Simulation Test Script 2.doc
+ - Metering August Mkt Sim.doc

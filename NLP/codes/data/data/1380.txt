@@ -1,0 +1,11 @@
+The following expense report is ready for approval:
+
+Employee Name: Matthew F. Lenhart
+Status last changed by:  Automated Administrator
+Expense Report Name: MLenhart 10
+Report Total: $929.29
+Amount Due Employee: $929.29
+
+
+To approve this expense report, click on the following link for Concur Expense.
+http://expensexms.enron.com

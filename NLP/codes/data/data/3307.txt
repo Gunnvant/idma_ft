@@ -1,0 +1,27 @@
+Vlady:
+In preparation for our discussion tomorrow, can you run VAR numbers for some 
+mini-portfolios:
+
+Portfolio 1.   +1000 November Nymex
+                -1000 December Nymex
+
+ 2.     -1000 July Nymex Straddles
+
+ 3.     +1000 July 2002 Nymex
+
+ 4.     +1000 July 2002 Nymex
+         - 1000 August 2002 Nymex
+
+ 5.     +1000 July Socal Basis
+
+ 6.     +1000 July Chicago Basis
+          -1000 July Michcon Basis
+
+ 7.     +1000 July Henry Hub Index
+
+ 8.     +1000 July 2003 Chicago Basis
+
+Again, these are separate portfolios.  I'm trying to check that the VAR 
+numbers make logical sense.  
+Thanks,
+John     

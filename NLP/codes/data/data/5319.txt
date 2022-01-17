@@ -1,0 +1,11 @@
+The following expense report is ready for approval:
+
+Employee Name: Ina R. Rangel
+Status last changed by:  Automated Administrator
+Expense Report Name: Rangel
+Report Total: $35,818.66
+Amount Due Employee: $35,818.66
+
+
+To approve this expense report, click on the following link for Concur Expense.
+http://expensexms.enron.com

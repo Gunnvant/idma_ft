@@ -1,0 +1,12 @@
+The following is a summary of the trades EES did today:
+ 
+  # buys  # sells
+Sep  5 / day  5 / day 
+Oct  4 / day
+Nov-Mar 3 / day  2 / day
+Apr-Oct  1.5 / day 2.5 / day
+ 
+Total contracts traded = 2045
+
+Thought you should know...
+John

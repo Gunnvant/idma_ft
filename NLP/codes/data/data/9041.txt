@@ -1,0 +1,10 @@
+Bob,
+Good talking to you this am.
+You can send the email to the following people:
+
+rmills@calpx.com
+mathompson@calpx.com
+dabrabb@calpx.com
+
+Regards,
+Drew

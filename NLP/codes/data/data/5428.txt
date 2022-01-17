@@ -1,0 +1,46 @@
+
+Oil Traders: Effective Monday October 29, IntercontinentalExchange will lis=
+t the prompt four months for the WTI bullet/Brent bullet.  These new strips=
+ will need to be manually entered into portfolios.
+
+API Developers: The new product ID for the Crude Diff  WTI bullet/Brent bul=
+let is 171.  The old product ID for this market was 18.
+
+Please call the ICE 24 hour Help Desk with any questions  770 738 2101.
+
+
+
+
+
+
+
+
+
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                        =20
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                        

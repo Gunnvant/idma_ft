@@ -1,0 +1,14 @@
+Hey:
+I just want to confirm the trades I have in your book.
+Trade #1.  I sell 4000 X @ 4652
+
+Trade #2. I buy 4000 X @ 4652
+  I sell 4000 X @ 4902
+
+Trade #3 I buy 4000 X @ 5000
+  I sell 4000 F @ 5000
+
+
+Net result: I have 4000 F in your book @ 4902.
+Thanks, 
+John

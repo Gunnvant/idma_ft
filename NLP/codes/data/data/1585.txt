@@ -1,0 +1,13 @@
+You have received this email because you are listed as a security approver. Please click http://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000069328&Page=Approval to review and act upon this request.
+
+
+
+
+Request ID          : 000000000069328
+Request Create Date : 10/18/01 1:39:02 PM
+Requested For       : mog.heu@enron.com
+Resource Name       : EOL US NatGas Trader
+Resource Type       : Applications
+
+
+

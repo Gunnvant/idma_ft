@@ -1,0 +1,13 @@
+You have received this email because you are listed as a security approver. Please click http://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000077131&Page=Approval to review and act upon this request.
+
+
+
+
+Request ID          : 000000000077131
+Request Create Date : 11/26/01 8:13:58 AM
+Requested For       : sandra.f.brawner@enron.com
+Resource Name       : ICE - External Intercontinental Exchange US Natural Gas
+Resource Type       : Applications
+
+
+

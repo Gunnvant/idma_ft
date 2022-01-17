@@ -1,0 +1,8 @@
+sell 100 nov gas market
+
+buy 100 nov gas 2.705 stop
+
+__________________________________________________
+Do You Yahoo!?
+Make a great connection at Yahoo! Personals.
+http://personals.yahoo.com

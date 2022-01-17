@@ -1,0 +1,8 @@
+I somehow created two of the same files that are linked, and I cannot unlink 
+them. The files are xxx4:1 and xxx4:2. I have tried closing the iles and 
+closing excel, but when I re-open xxx4, both the files are re-opened. This is 
+a very important file, so I need help as soon as possible. Thank you.
+
+Bob Badeer
+
+503 464 3926

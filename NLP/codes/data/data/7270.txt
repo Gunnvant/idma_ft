@@ -1,0 +1,4 @@
+Web server noticeably slow today.  I'm getting a lot of bad failed trades 
+(2-3 seconds behind when I change a price).
+Not necessarily slower than yesterday, but definitely slower than a month 
+ago.

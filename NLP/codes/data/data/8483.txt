@@ -1,0 +1,10 @@
+John,
+
+I have attached a link to the first iteration of the DataRoom spec.  Due to all the screen shots, the file is too large to email.  Please review the document and I am fully available to try and answer all of the questions that will arise.  Tobias and I reviewed what we had come up with with Suresh this morning.  He added some good insights that have been incorporated into the document.  There still are some outstanding issues (noted in the document), but this should provide a detailed starting point for the development of the DataRoom.
+
+Take a read and let me know when you want to meet.
+
+Thanks,
+Zach
+
+\\enehou\houston\common\directfinance\dataroom\DR_spec_v1.doc

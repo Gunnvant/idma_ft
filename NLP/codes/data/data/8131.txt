@@ -1,0 +1,14 @@
+This request has been pending your approval for  28 days.  Please click http://itcapps.corp.enron.com/srrs/auth/emailLink.asp?ID=000000000076886&Page=Approval to review and act upon this request.
+
+
+
+
+
+Request ID          : 000000000076886
+Request Create Date : 11/20/01 12:47:06 PM
+Requested For       : hai.chen@enron.com
+Resource Name       : Reuters Kobra 3.5.1
+Resource Type       : Applications
+
+
+

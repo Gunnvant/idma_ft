@@ -1,0 +1,30 @@
+TO VERIFY "harry.arora@enron.com" as a valid email 
+address for the Yahoo! account "harrysarora", 
+click on the following link or enter it in your browser.
+
+http://verify.yahoo.com/v/recv?109e3
+
+
+You may be asked to sign in first.
+
+Follow the instructions on our site.  If it asks for your 
+Verification Code, enter:  109e3
+
+You will receive one email per unverified address.
+
+Regards,
+
+Yahoo! Member Services
+
+
+
+-------------------------------------------------------------
+
+IF "harrysarora" IS NOT YOUR ACCOUNT, click on the following 
+link or enter it into your browser.  
+
+http://verify.yahoo.com/v/remove?.k=109e3&.lid=usLx8wKAEXx5qDgYfA--
+
+This will remove "harry.arora@enron.com" from 
+the Yahoo! account "harrysarora".
+Sorry for the inconvenience.

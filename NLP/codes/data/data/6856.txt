@@ -1,0 +1,7 @@
+Joey:
+Can you round the price of following EOL deals from 10/9 with Cargill to four decimals while keeping the spread price the same:
+1985332
+1985333  
+
+Thx,
+John

@@ -1,0 +1,3 @@
+Complete application for Troy an AT&T calling card and forward to Morris.
+Assigned to: CN=Jeff Arnold/OU=GCO/O=Enron
+Updated by: CN=Jeff Arnold/OU=GCO/O=Enron
