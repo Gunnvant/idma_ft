@@ -1,8 +1,0 @@
-Sarah:
-Can you create a spreadsheet summarizing Enron's open futures interest broken 
-down by commodity and broker, including maintenance and initial margin for 
-all commodities (including rates, currencies, gas, crude, etc).  
-Also, can you create a list of all margin financing agreements in place and 
-the rates we pay.
-Thanks,
-John

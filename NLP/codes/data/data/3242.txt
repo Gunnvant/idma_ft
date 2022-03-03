@@ -1,7 +1,0 @@
-Hello:
-There is one feature that has not been transferred to the new stack manager.  
-When I sort by both counterparty and product at the bottom of the screen, the 
-position summary does not sort by both product and counterparty, just by 
-product.  It would be very useful if you can replace this. 
-Thanks,
-John

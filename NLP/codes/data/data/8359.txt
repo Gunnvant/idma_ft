@@ -1,9 +1,0 @@
-Harry,
-Tom has drafted a document accompanying the option model. It should
-be helpful for other people who sees the model the first time.
-
-Best,
-Alex
-
-(See attached file: DailyValuation1.doc)
- - DailyValuation1.doc 

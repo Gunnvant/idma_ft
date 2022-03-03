@@ -1,5 +1,0 @@
-Conference Room TBD.  
-
-This meeting will be to discuss opportunity for EBS to provide the network 
-for BBI's well-site reporting systems to send their data across.  Maybe 
-VBN/IPNetConnect application?

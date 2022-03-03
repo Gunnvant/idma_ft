@@ -1,5 +1,0 @@
-Entergy's new OASIS node is now available.  The URL for the new node is http://oasis.e-terrasolutions.com/OASIS/EES
-
-There is a link at the old Entergy OASIS site provided by MAIN that will direct customers to the new OASIS site provided by ESCA.  If you have the old OASIS site bookmarked, please delete the old bookmark, and create a new one using the above URL.  New requests submitted to the old OASIS node will be denied.
-
-Customers who have difficulty accessing Entergy's new OASIS site should contact Entergy System Operations at 870 541 3977.

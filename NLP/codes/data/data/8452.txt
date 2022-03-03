@@ -1,8 +1,0 @@
-All,
-
-There has been some concern about the lack of clarity regarding what functionality is ready for user acceptance testing in the staging environment.  To attempt to solve this problem, we have come up with a simple process that will enhance communication and will allow everyone on the team to know what functionality is in staging waiting for user acceptance signoff prior to a release to production.  Please read the attached one page document that details the proposed process.  Let me know if you have any questions.
-
-Thanks,
-Zach
-
-  

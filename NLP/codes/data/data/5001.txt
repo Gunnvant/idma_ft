@@ -1,3 +1,0 @@
-stl -14  200
-
-stl det over 49.5 200

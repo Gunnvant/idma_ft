@@ -1,7 +1,0 @@
-early games 150
- 
-indi -10.5
-carolina -3.5
-chicago +1
-tb -4.5
-detroit/tenn under 39

@@ -1,9 +1,0 @@
-Netscape 4.74 has been rolled out to the Portland office.  After you've 
-completed a fresh login, you will notice Netscape 4.74 on your start menu.  
-Just click the Netscape icon and the new version will install automatically.
-
-If you have any problems during this Netscape upgrade, please feel free to 
-call any IT person.
-
-Regards,
-Paul

@@ -1,5 +1,0 @@
-Andy:
-Just a couple of quick items that need to be addressed.  First, what happens 
-if the delta of the option is greater than the size of the hedge offered on 
-EOL?  Second, what strike are straddles traded at.  Are they set at the 
-nearest 5 cent interval or are they mid-market of the EOL quote?
